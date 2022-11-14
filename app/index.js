@@ -28,7 +28,7 @@ try {
 
 // app.use('/api/person', router);
 app.use('/health', (_, res) => {
-  res.status(200).json({ success: true, message: 'OK ---' });
+  res.status(200).json({ success: true, message: 'Administración de Sistemas' });
 });
 
 app.listen(port, () => {
